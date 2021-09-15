@@ -1,0 +1,20 @@
+#version 430 core
+
+layout(location=0)in vec3 position;
+layout(location=2)in vec2 aTexCoord;
+
+uniform mat4 translate;
+uniform mat4 perspective;
+uniform mat4 rotateCam;
+uniform mat4 scale;
+uniform mat4 rotate;
+
+out vec3 color;
+out vec2 TexCoord;
+
+void main()
+{
+ color = position;
+ TexCoord = aTexCoord;
+  gl_Position = scale * rotate * translate * vec4(position,1.0f);
+}

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Engine\engine.cpp" />
+    <ClCompile Include="src\GL\Shader\shader.cpp" />
+    <ClCompile Include="src\GL\Buffer\vbo\buffer.cpp" />
+    <ClCompile Include="src\GL\Texture\texture.cpp" />
+    <ClCompile Include="src\GL\Keyboard\key\input.cpp" />
+    <ClCompile Include="src\GL\View\camera.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Engine\engine.h" />
+    <ClInclude Include="src\gl.h" />
+    <ClInclude Include="src\GL\Shader\shader.h" />
+    <ClInclude Include="src\matrix.h" />
+    <ClInclude Include="src\GL\Texture\stb_image.h" />
+    <ClInclude Include="src\GL\Buffer\vbo\buffer.h" />
+    <ClInclude Include="src\GL\Texture\texture.h" />
+    <ClInclude Include="src\GL\Keyboard\key\input.h" />
+    <ClInclude Include="src\GL\Shader\packet.h" />
+    <ClInclude Include="src\Engine\packet.h" />
+    <ClInclude Include="src\GL\View\camera.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\GL\Shader\loger.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\GL\Shader\shader\shader.vertical" />
+    <None Include="src\GL\Shader\shader\shader.fragment" />
+    <None Include="src\GL\Texture\textures\c38d706dfc235bf7a286d6cec810f5fe.jpg" />
+    <None Include="src\GL\Texture\textures\чистый-кирпич_10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\GL\Texture\textures\texture_metall.jpg" />
+    <Image Include="src\GL\Texture\textures\wood.jpg" />
+    <Image Include="src\GL\Texture\textures\texture.jpg" />
+    <Image Include="src\GL\Texture\textures\texture.png" />
+    <Image Include="src\GL\Texture\textures\texture_2.jpg" />
+    <Image Include="src\GL\Texture\textures\Screenshot_2.png" />
+    <Image Include="src\GL\Texture\textures\8_9.jpg" />
+    <Image Include="src\GL\Texture\textures\image0.jpg" />
+    <Image Include="src\GL\Texture\textures\image0.png" />
+    <Image Include="src\GL\Texture\textures\10_11.png" />
+    <Image Include="src\GL\Texture\textures\unnamed.jpg" />
+    <Image Include="src\GL\Texture\textures\Без названия.jpg" />
+    <Image Include="src\GL\Texture\textures\1461748084167073788.jpg" />
+    <Image Include="src\GL\Texture\textures\Без названия.png" />
+    <Image Include="src\GL\Texture\textures\db6iwnk2vvdqevaq0jqsfatmmts.jpeg" />
+  </ItemGroup>
+</Project>

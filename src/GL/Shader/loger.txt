@@ -1,0 +1,3 @@
+info: shader was compiled
+info: program linked
+Shader compiled
